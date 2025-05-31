@@ -16,4 +16,4 @@ st.set_page_config(page_title="Streamlit App", page_icon=":shark:")
 #	st.page_link("pages/4_Visitor_main2.py", label="入館者属性", icon=":material/apps:")
 
 st.title("multi page app")
-st.image("images/polar_bear.png")
+st.image("images/iosiro.png")
