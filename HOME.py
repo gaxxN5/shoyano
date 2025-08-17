@@ -42,7 +42,4 @@ border-radius: 8px; '>
 #		メール：〇〇〇@〇〇〇.com<BR>
 </div>''',
 unsafe_allow_html=True
-
 )
-
-
