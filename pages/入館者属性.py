@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 #①読み込まれたデータ
 st.write('参照した入館者属性データ(5月5日)')
-df = pd.read_csv('../data/訪問客属性3.csv')
+df = pd.read_csv('data/訪問客属性3.csv')
 st.write("①参照データ")
 st.dataframe(df)
 
@@ -145,3 +145,4 @@ with col2:
 
 
 st.write("***********")
+
