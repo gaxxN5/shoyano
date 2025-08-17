@@ -130,20 +130,20 @@ col2.scatter_chart(df5)
 
 st.text("-------------------------------------------------------------------")
 
-st.title('散布図')
+#st.title('散布図')
 
 # ダミーデータの作成
-dates = pd.date_range(start='2024-01-01', periods=100)
-values1 = np.random.randn(100).cumsum()
-values2 = np.random.randn(100).cumsum()
+#dates = pd.date_range(start='2024-01-01', periods=100)
+#values1 = np.random.randn(100).cumsum()
+#values2 = np.random.randn(100).cumsum()
 
 # データフレームの作成
-data = pd.DataFrame({
-    'date': dates,
-    'column 1': values1,
-    'column 2': values2
-})
-st.dataframe(data)
+#data = pd.DataFrame({
+#    'date': dates,
+#    'column 1': values1,
+#    'column 2': values2
+#})
+#st.dataframe(data)
 
 # スキャッターチャートの表示
-st.scatter_chart(data.set_index('date'))
+#st.scatter_chart(data.set_index('date'))
