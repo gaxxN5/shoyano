@@ -102,7 +102,7 @@ with col1:
 
 	df7 = df_grouped3
 
-	df8 = df7.drop(labels=['作成日時','時','分','都道府県','lat','long','性別','車種','用途名'],axis=1,errors='ignore')
+	df8 = df7.drop(labels=['作成日時','分','都道府県','lat','long','車種','用途名'],axis=1,errors='ignore')
 
 	column_config3 = {
     	"年代": Column(
