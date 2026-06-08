@@ -62,7 +62,7 @@ st.pydeck_chart(r)
 df_grouped2 = df.groupby('用途名').sum()
 
 df5 = df_grouped2
-df6 = df5.drop(labels=['作成日時','時','分','都道府県','lat','long','性別','年代','車種'],axis=1,errors='ignore')
+df6 = df5.drop(labels=['作成日時','分','都道府県','lat','long','年代','車種'],axis=1,errors='ignore')
 st.write("***********")
 st.write('③駐車場での車の用途別台数割合')
 
